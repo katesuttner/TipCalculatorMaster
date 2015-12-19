@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80FB56C1C0A960B003C7FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FB56B1C0A960B003C7FFA /* AppDelegate.swift */; };
+		D80FB56E1C0A960B003C7FFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FB56D1C0A960B003C7FFA /* ViewController.swift */; };
+		D80FB5711C0A960B003C7FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80FB56F1C0A960B003C7FFA /* Main.storyboard */; };
+		D80FB5731C0A960B003C7FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80FB5721C0A960B003C7FFA /* Assets.xcassets */; };
+		D80FB5761C0A960B003C7FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80FB5741C0A960B003C7FFA /* LaunchScreen.storyboard */; };
+		D80FB5811C0A960B003C7FFA /* Take_my_MoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FB5801C0A960B003C7FFA /* Take_my_MoneyTests.swift */; };
+		D80FB58C1C0A960B003C7FFA /* Take_my_MoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FB58B1C0A960B003C7FFA /* Take_my_MoneyUITests.swift */; };
+		D8AC49421C1E279C002D1AB3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AC49411C1E279C002D1AB3 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D80FB57D1C0A960B003C7FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80FB5601C0A960B003C7FFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80FB5671C0A960B003C7FFA;
+			remoteInfo = "Take my Money";
+		};
+		D80FB5881C0A960B003C7FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80FB5601C0A960B003C7FFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80FB5671C0A960B003C7FFA;
+			remoteInfo = "Take my Money";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D80FB5681C0A960B003C7FFA /* Take my Money.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Take my Money.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80FB56B1C0A960B003C7FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D80FB56D1C0A960B003C7FFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D80FB5701C0A960B003C7FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80FB5721C0A960B003C7FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80FB5751C0A960B003C7FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D80FB5771C0A960B003C7FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80FB57C1C0A960B003C7FFA /* Take my MoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take my MoneyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80FB5801C0A960B003C7FFA /* Take_my_MoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_my_MoneyTests.swift; sourceTree = "<group>"; };
+		D80FB5821C0A960B003C7FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80FB5871C0A960B003C7FFA /* Take my MoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take my MoneyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80FB58B1C0A960B003C7FFA /* Take_my_MoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_my_MoneyUITests.swift; sourceTree = "<group>"; };
+		D80FB58D1C0A960B003C7FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8AC49411C1E279C002D1AB3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80FB5651C0A960B003C7FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80FB5791C0A960B003C7FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80FB5841C0A960B003C7FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D80FB55F1C0A960B003C7FFA = {
+			isa = PBXGroup;
+			children = (
+				D80FB56A1C0A960B003C7FFA /* Take my Money */,
+				D80FB57F1C0A960B003C7FFA /* Take my MoneyTests */,
+				D80FB58A1C0A960B003C7FFA /* Take my MoneyUITests */,
+				D80FB5691C0A960B003C7FFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D80FB5691C0A960B003C7FFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80FB5681C0A960B003C7FFA /* Take my Money.app */,
+				D80FB57C1C0A960B003C7FFA /* Take my MoneyTests.xctest */,
+				D80FB5871C0A960B003C7FFA /* Take my MoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80FB56A1C0A960B003C7FFA /* Take my Money */ = {
+			isa = PBXGroup;
+			children = (
+				D80FB56B1C0A960B003C7FFA /* AppDelegate.swift */,
+				D80FB56D1C0A960B003C7FFA /* ViewController.swift */,
+				D80FB56F1C0A960B003C7FFA /* Main.storyboard */,
+				D8AC49411C1E279C002D1AB3 /* SettingsViewController.swift */,
+				D80FB5721C0A960B003C7FFA /* Assets.xcassets */,
+				D80FB5741C0A960B003C7FFA /* LaunchScreen.storyboard */,
+				D80FB5771C0A960B003C7FFA /* Info.plist */,
+			);
+			path = "Take my Money";
+			sourceTree = "<group>";
+		};
+		D80FB57F1C0A960B003C7FFA /* Take my MoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D80FB5801C0A960B003C7FFA /* Take_my_MoneyTests.swift */,
+				D80FB5821C0A960B003C7FFA /* Info.plist */,
+			);
+			path = "Take my MoneyTests";
+			sourceTree = "<group>";
+		};
+		D80FB58A1C0A960B003C7FFA /* Take my MoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D80FB58B1C0A960B003C7FFA /* Take_my_MoneyUITests.swift */,
+				D80FB58D1C0A960B003C7FFA /* Info.plist */,
+			);
+			path = "Take my MoneyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80FB5671C0A960B003C7FFA /* Take my Money */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80FB5901C0A960B003C7FFA /* Build configuration list for PBXNativeTarget "Take my Money" */;
+			buildPhases = (
+				D80FB5641C0A960B003C7FFA /* Sources */,
+				D80FB5651C0A960B003C7FFA /* Frameworks */,
+				D80FB5661C0A960B003C7FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Take my Money";
+			productName = "Take my Money";
+			productReference = D80FB5681C0A960B003C7FFA /* Take my Money.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D80FB57B1C0A960B003C7FFA /* Take my MoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80FB5931C0A960B003C7FFA /* Build configuration list for PBXNativeTarget "Take my MoneyTests" */;
+			buildPhases = (
+				D80FB5781C0A960B003C7FFA /* Sources */,
+				D80FB5791C0A960B003C7FFA /* Frameworks */,
+				D80FB57A1C0A960B003C7FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80FB57E1C0A960B003C7FFA /* PBXTargetDependency */,
+			);
+			name = "Take my MoneyTests";
+			productName = "Take my MoneyTests";
+			productReference = D80FB57C1C0A960B003C7FFA /* Take my MoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D80FB5861C0A960B003C7FFA /* Take my MoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80FB5961C0A960B003C7FFA /* Build configuration list for PBXNativeTarget "Take my MoneyUITests" */;
+			buildPhases = (
+				D80FB5831C0A960B003C7FFA /* Sources */,
+				D80FB5841C0A960B003C7FFA /* Frameworks */,
+				D80FB5851C0A960B003C7FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80FB5891C0A960B003C7FFA /* PBXTargetDependency */,
+			);
+			name = "Take my MoneyUITests";
+			productName = "Take my MoneyUITests";
+			productReference = D80FB5871C0A960B003C7FFA /* Take my MoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80FB5601C0A960B003C7FFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = CodePath;
+				TargetAttributes = {
+					D80FB5671C0A960B003C7FFA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D80FB57B1C0A960B003C7FFA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D80FB5671C0A960B003C7FFA;
+					};
+					D80FB5861C0A960B003C7FFA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D80FB5671C0A960B003C7FFA;
+					};
+				};
+			};
+			buildConfigurationList = D80FB5631C0A960B003C7FFA /* Build configuration list for PBXProject "Take my Money" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80FB55F1C0A960B003C7FFA;
+			productRefGroup = D80FB5691C0A960B003C7FFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80FB5671C0A960B003C7FFA /* Take my Money */,
+				D80FB57B1C0A960B003C7FFA /* Take my MoneyTests */,
+				D80FB5861C0A960B003C7FFA /* Take my MoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80FB5661C0A960B003C7FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80FB5761C0A960B003C7FFA /* LaunchScreen.storyboard in Resources */,
+				D80FB5731C0A960B003C7FFA /* Assets.xcassets in Resources */,
+				D80FB5711C0A960B003C7FFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80FB57A1C0A960B003C7FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80FB5851C0A960B003C7FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80FB5641C0A960B003C7FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80FB56E1C0A960B003C7FFA /* ViewController.swift in Sources */,
+				D80FB56C1C0A960B003C7FFA /* AppDelegate.swift in Sources */,
+				D8AC49421C1E279C002D1AB3 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80FB5781C0A960B003C7FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80FB5811C0A960B003C7FFA /* Take_my_MoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80FB5831C0A960B003C7FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80FB58C1C0A960B003C7FFA /* Take_my_MoneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D80FB57E1C0A960B003C7FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80FB5671C0A960B003C7FFA /* Take my Money */;
+			targetProxy = D80FB57D1C0A960B003C7FFA /* PBXContainerItemProxy */;
+		};
+		D80FB5891C0A960B003C7FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80FB5671C0A960B003C7FFA /* Take my Money */;
+			targetProxy = D80FB5881C0A960B003C7FFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D80FB56F1C0A960B003C7FFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80FB5701C0A960B003C7FFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D80FB5741C0A960B003C7FFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80FB5751C0A960B003C7FFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80FB58E1C0A960B003C7FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D80FB58F1C0A960B003C7FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80FB5911C0A960B003C7FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Take my Money/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tip-Calculator.Take-my-Money";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D80FB5921C0A960B003C7FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Take my Money/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tip-Calculator.Take-my-Money";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D80FB5941C0A960B003C7FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Take my MoneyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tip-Calculator.Take-my-MoneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Take my Money.app/Take my Money";
+			};
+			name = Debug;
+		};
+		D80FB5951C0A960B003C7FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Take my MoneyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tip-Calculator.Take-my-MoneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Take my Money.app/Take my Money";
+			};
+			name = Release;
+		};
+		D80FB5971C0A960B003C7FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Take my MoneyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tip-Calculator.Take-my-MoneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Take my Money";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D80FB5981C0A960B003C7FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Take my MoneyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tip-Calculator.Take-my-MoneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Take my Money";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80FB5631C0A960B003C7FFA /* Build configuration list for PBXProject "Take my Money" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80FB58E1C0A960B003C7FFA /* Debug */,
+				D80FB58F1C0A960B003C7FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80FB5901C0A960B003C7FFA /* Build configuration list for PBXNativeTarget "Take my Money" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80FB5911C0A960B003C7FFA /* Debug */,
+				D80FB5921C0A960B003C7FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80FB5931C0A960B003C7FFA /* Build configuration list for PBXNativeTarget "Take my MoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80FB5941C0A960B003C7FFA /* Debug */,
+				D80FB5951C0A960B003C7FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80FB5961C0A960B003C7FFA /* Build configuration list for PBXNativeTarget "Take my MoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80FB5971C0A960B003C7FFA /* Debug */,
+				D80FB5981C0A960B003C7FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80FB5601C0A960B003C7FFA /* Project object */;
+}
