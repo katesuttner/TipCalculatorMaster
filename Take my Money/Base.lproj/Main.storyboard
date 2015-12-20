@@ -147,7 +147,6 @@
                     <connections>
                         <outlet property="amountPerPersonLabel" destination="sTW-W9-Jj6" id="b06-MR-gHE"/>
                         <outlet property="billField" destination="Nvv-9y-tnc" id="HnP-ah-hgY"/>
-                        <outlet property="inputView" destination="v7Y-8A-Iw9" id="byR-WD-MEr"/>
                         <outlet property="mainInputView" destination="v7Y-8A-Iw9" id="scN-tb-N8V"/>
                         <outlet property="numPeopleLabel" destination="HWx-a2-7ig" id="K4G-AN-caf"/>
                         <outlet property="personNumberStepper" destination="0Py-ve-bNN" id="BPR-RY-F3a"/>
