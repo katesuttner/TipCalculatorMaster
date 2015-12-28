@@ -14,6 +14,11 @@
 		D80FB5761C0A960B003C7FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80FB5741C0A960B003C7FFA /* LaunchScreen.storyboard */; };
 		D80FB5811C0A960B003C7FFA /* Take_my_MoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FB5801C0A960B003C7FFA /* Take_my_MoneyTests.swift */; };
 		D80FB58C1C0A960B003C7FFA /* Take_my_MoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FB58B1C0A960B003C7FFA /* Take_my_MoneyUITests.swift */; };
+		D87584661C30C5BD00AF3832 /* SmileyTeethFace.gif in Resources */ = {isa = PBXBuildFile; fileRef = D87584651C30C5BD00AF3832 /* SmileyTeethFace.gif */; };
+		D875846D1C30CA7C00AF3832 /* GifAnimation-master (2).zip in Resources */ = {isa = PBXBuildFile; fileRef = D875846C1C30CA7C00AF3832 /* GifAnimation-master (2).zip */; };
+		D87584711C30CAB900AF3832 /* AnimatedGIFImageSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D87584701C30CAB900AF3832 /* AnimatedGIFImageSerialization.m */; };
+		D87584751C30CF4100AF3832 /* OhNoFace.gif in Resources */ = {isa = PBXBuildFile; fileRef = D87584741C30CF4100AF3832 /* OhNoFace.gif */; };
+		D87584771C30D14B00AF3832 /* RollingFaceSmiley.gif in Resources */ = {isa = PBXBuildFile; fileRef = D87584761C30D14B00AF3832 /* RollingFaceSmiley.gif */; };
 		D8AC49421C1E279C002D1AB3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AC49411C1E279C002D1AB3 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +53,13 @@
 		D80FB5871C0A960B003C7FFA /* Take my MoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take my MoneyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80FB58B1C0A960B003C7FFA /* Take_my_MoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_my_MoneyUITests.swift; sourceTree = "<group>"; };
 		D80FB58D1C0A960B003C7FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D87584651C30C5BD00AF3832 /* SmileyTeethFace.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = SmileyTeethFace.gif; path = ../../../Desktop/SmileyTeethFace.gif; sourceTree = "<group>"; };
+		D875846C1C30CA7C00AF3832 /* GifAnimation-master (2).zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "GifAnimation-master (2).zip"; path = "../../Desktop/GifAnimation-master (2).zip"; sourceTree = "<group>"; };
+		D875846E1C30CAB800AF3832 /* Take my Money-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Take my Money-Bridging-Header.h"; sourceTree = "<group>"; };
+		D875846F1C30CAB900AF3832 /* AnimatedGIFImageSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimatedGIFImageSerialization.h; path = "../../../Desktop/GifAnimation-master/GifAnimation/Objective-C Files/AnimatedGIFImageSerialization.h"; sourceTree = "<group>"; };
+		D87584701C30CAB900AF3832 /* AnimatedGIFImageSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimatedGIFImageSerialization.m; path = "../../../Desktop/GifAnimation-master/GifAnimation/Objective-C Files/AnimatedGIFImageSerialization.m"; sourceTree = "<group>"; };
+		D87584741C30CF4100AF3832 /* OhNoFace.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = OhNoFace.gif; path = ../../../Desktop/OhNoFace.gif; sourceTree = "<group>"; };
+		D87584761C30D14B00AF3832 /* RollingFaceSmiley.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = RollingFaceSmiley.gif; path = ../../../Desktop/RollingFaceSmiley.gif; sourceTree = "<group>"; };
 		D8AC49411C1E279C002D1AB3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +91,7 @@
 		D80FB55F1C0A960B003C7FFA = {
 			isa = PBXGroup;
 			children = (
+				D875846C1C30CA7C00AF3832 /* GifAnimation-master (2).zip */,
 				D80FB56A1C0A960B003C7FFA /* Take my Money */,
 				D80FB57F1C0A960B003C7FFA /* Take my MoneyTests */,
 				D80FB58A1C0A960B003C7FFA /* Take my MoneyUITests */,
@@ -99,6 +112,11 @@
 		D80FB56A1C0A960B003C7FFA /* Take my Money */ = {
 			isa = PBXGroup;
 			children = (
+				D875846F1C30CAB900AF3832 /* AnimatedGIFImageSerialization.h */,
+				D87584701C30CAB900AF3832 /* AnimatedGIFImageSerialization.m */,
+				D87584761C30D14B00AF3832 /* RollingFaceSmiley.gif */,
+				D87584741C30CF4100AF3832 /* OhNoFace.gif */,
+				D87584651C30C5BD00AF3832 /* SmileyTeethFace.gif */,
 				D80FB56B1C0A960B003C7FFA /* AppDelegate.swift */,
 				D80FB56D1C0A960B003C7FFA /* ViewController.swift */,
 				D80FB56F1C0A960B003C7FFA /* Main.storyboard */,
@@ -106,6 +124,7 @@
 				D80FB5721C0A960B003C7FFA /* Assets.xcassets */,
 				D80FB5741C0A960B003C7FFA /* LaunchScreen.storyboard */,
 				D80FB5771C0A960B003C7FFA /* Info.plist */,
+				D875846E1C30CAB800AF3832 /* Take my Money-Bridging-Header.h */,
 			);
 			path = "Take my Money";
 			sourceTree = "<group>";
@@ -232,9 +251,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D875846D1C30CA7C00AF3832 /* GifAnimation-master (2).zip in Resources */,
 				D80FB5761C0A960B003C7FFA /* LaunchScreen.storyboard in Resources */,
+				D87584771C30D14B00AF3832 /* RollingFaceSmiley.gif in Resources */,
 				D80FB5731C0A960B003C7FFA /* Assets.xcassets in Resources */,
 				D80FB5711C0A960B003C7FFA /* Main.storyboard in Resources */,
+				D87584661C30C5BD00AF3832 /* SmileyTeethFace.gif in Resources */,
+				D87584751C30CF4100AF3832 /* OhNoFace.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87584711C30CAB900AF3832 /* AnimatedGIFImageSerialization.m in Sources */,
 				D80FB56E1C0A960B003C7FFA /* ViewController.swift in Sources */,
 				D80FB56C1C0A960B003C7FFA /* AppDelegate.swift in Sources */,
 				D8AC49421C1E279C002D1AB3 /* SettingsViewController.swift in Sources */,
@@ -403,11 +427,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Take my Money/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Tip-Calculator.Take-my-Money";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Take my Money/Take my Money-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -416,11 +443,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Take my Money/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Tip-Calculator.Take-my-Money";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Take my Money/Take my Money-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

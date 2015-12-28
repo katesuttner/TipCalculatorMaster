@@ -19,7 +19,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var numPeopleLabel: UILabel!
     @IBOutlet weak var amountPerPersonLabel: UILabel!
     @IBOutlet weak var mainInputView: UIView!
-
+    @IBOutlet weak var SmileyFaceHouse: UIImageView!
+    @IBOutlet weak var OhNoFaceHouse: UIImageView!
+    @IBOutlet weak var RollingFaceHouse: UIImageView!
     
     let defaults = NSUserDefaults.standardUserDefaults()
     var tipPercentage: Double!
@@ -62,6 +64,19 @@ class ViewController: UIViewController {
             splitBillView.hidden = true
             
         }
+        
+        let image1 : UIImage = UIImage (named: "SmileyTeethFace.gif")!
+        var data1:NSData = try! AnimatedGIFImageSerialization.animatedGIFDataWithImage(image1, duration:0, loopCount:0)
+        SmileyFaceHouse.image = UIImage(data:data1)
+        
+        let image2 : UIImage = UIImage (named: "OhNoFace.gif")!
+        var data2:NSData = try! AnimatedGIFImageSerialization.animatedGIFDataWithImage(image2, duration:0, loopCount:0)
+        OhNoFaceHouse.image = UIImage(data:data2)
+        
+        let image3 : UIImage = UIImage (named: "RollingFaceSmiley.gif")!
+        var data3:NSData = try! AnimatedGIFImageSerialization.animatedGIFDataWithImage(image3, duration:0, loopCount:0)
+        RollingFaceHouse.image = UIImage(data:data3)
+        
         
         tipControl.selectedSegmentIndex = defaults.integerForKey("selected_index")
         
