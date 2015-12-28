@@ -14,12 +14,14 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var defaultTipControl: UISegmentedControl!
     
     let userDefaults = NSUserDefaults.standardUserDefaults()
-//    var splitViewEnabled = false
+
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
-        //splitViewEnabled = userDefaults.boolForKey("splitView")
+        defaultTipControl.selectedSegmentIndex =
+            userDefaults.integerForKey("selected_index")
+        
         billSwitch.on = userDefaults.boolForKey("splitBill")
         
     }
@@ -37,5 +39,14 @@ class SettingsViewController: UIViewController {
         
     }
     
+    
+    @IBAction func ChangeIndexValue(sender: AnyObject) {
+        
+        userDefaults.setInteger(defaultTipControl.selectedSegmentIndex, forKey: "selected_index")
+        
+    }
 
+    
+    
+    
 }

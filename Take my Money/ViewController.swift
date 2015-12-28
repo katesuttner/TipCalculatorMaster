@@ -34,7 +34,8 @@ class ViewController: UIViewController {
         if( ( now - defaults.doubleForKey("previous_billtime")) < tenMins )
         {
             billField.text = String(defaults.doubleForKey("previous_billamount"))
-            calculateTip(0.20)
+            tipControl.selectedSegmentIndex = defaults.integerForKey("selected_index")
+            calculateTip()
             
         } else {
         
@@ -62,8 +63,12 @@ class ViewController: UIViewController {
             
         }
         
+        tipControl.selectedSegmentIndex = defaults.integerForKey("selected_index")
+        
+        calculateTip()
         
         billField.becomeFirstResponder()
+        
         
     }
 
@@ -75,19 +80,21 @@ class ViewController: UIViewController {
     }
 
     @IBAction func NumPeopleChanged(sender: AnyObject) {
-        calculateTip(tipPercentage)
+        calculateTip()
         
         
     }
     @IBAction func onEditingChanged(sender: AnyObject) {
         let tipPercentages = [0.1, 0.15, 0.20]
         tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
-        calculateTip(tipPercentage)
+        calculateTip()
         
     }
     
-    func calculateTip(tipPercentage: Double) {
+    func calculateTip() {
         
+        let tipPercentages = [0.1, 0.15, 0.20]
+        tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
         
         let billAmount = NSString(string: billField.text!).doubleValue
         defaults.setDouble(billAmount, forKey: "previous_billamount")
