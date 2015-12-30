@@ -37,6 +37,7 @@
                                         <rect key="frame" x="18" y="59" width="94" height="29"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
+                                        <color key="tintColor" red="0.98687009162303663" green="0.29692339441224802" blue="0.14400648441875732" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="NumPeopleChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="7bM-sf-geD"/>
                                         </connections>
@@ -59,7 +60,7 @@
                                     </label>
                                 </subviews>
                                 <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" id="v7Y-8A-Iw9">
                                 <rect key="frame" x="0.0" y="72" width="320" height="241"/>
@@ -99,6 +100,7 @@
                                         <rect key="frame" x="217" y="42" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
+                                        <color key="tintColor" red="1" green="0.30297685147103925" blue="0.14227137233877163" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                         <connections>
@@ -122,6 +124,7 @@
                                             <segment title="15%"/>
                                             <segment title="20%"/>
                                         </segments>
+                                        <color key="tintColor" red="1" green="0.55460977486994123" blue="0.5958670197817566" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="7mS-Rf-jzK"/>
                                         </connections>
@@ -147,13 +150,14 @@
                             </imageView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.63365715176373738" blue="0.33489362779002019" alpha="1" colorSpace="calibratedRGB"/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="Scw-eV-prK" appends="YES" id="4Qw-5p-EPe"/>
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="0sc-kD-TgC">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="AAS-LU-vUn">
+                            <color key="tintColor" red="0.96412794502617805" green="0.29210844919927464" blue="0.13716780584903412" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="N5i-Js-3Br" kind="push" id="JWQ-Ng-r9R"/>
                             </connections>
@@ -195,14 +199,16 @@
                                 <rect key="frame" x="46" y="91" width="215" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
+                                <color key="tintColor" red="1" green="0.49542180468775676" blue="0.26148756112459226" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" red="0.1565594368874362" green="0.50732660665982798" blue="0.65244600785340312" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.91089743589743588" green="0.47908285035648351" blue="0.34991682859174206" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hsH-pj-zPH">
                                 <rect key="frame" x="69" y="148" width="22" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
+                                <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -216,6 +222,7 @@
                                     <segment title="15%"/>
                                     <segment title="20%"/>
                                 </segments>
+                                <color key="tintColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="ChangeIndexValue:" destination="N5i-Js-3Br" eventType="valueChanged" id="fQk-yQ-qGa"/>
                                 </connections>
@@ -224,18 +231,11 @@
                                 <rect key="frame" x="69" y="253" width="182" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" red="1" green="0.49542180470000002" blue="0.26148756109999999" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="WSH-9R-7un">
-                                <rect key="frame" x="136" y="138" width="51" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <connections>
-                                    <action selector="splitBillOn:" destination="N5i-Js-3Br" eventType="valueChanged" id="SmB-D0-NwS"/>
-                                </connections>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EXO-Gz-Zmw">
                                 <rect key="frame" x="213" y="148" width="28" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -244,9 +244,18 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="WSH-9R-7un">
+                                <rect key="frame" x="136" y="143" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="tintColor" red="0.7441306089743589" green="0.39137250708550958" blue="0.28585416149932796" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="splitBillOn:" destination="N5i-Js-3Br" eventType="valueChanged" id="SmB-D0-NwS"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.325239401470934" blue="0.059075178568894424" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="vWk-ka-DBt"/>
                     <connections>
