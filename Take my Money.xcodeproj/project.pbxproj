@@ -14,9 +14,9 @@
 		D80FB5761C0A960B003C7FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80FB5741C0A960B003C7FFA /* LaunchScreen.storyboard */; };
 		D80FB5811C0A960B003C7FFA /* Take_my_MoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FB5801C0A960B003C7FFA /* Take_my_MoneyTests.swift */; };
 		D80FB58C1C0A960B003C7FFA /* Take_my_MoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FB58B1C0A960B003C7FFA /* Take_my_MoneyUITests.swift */; };
+		D86825FB1C3391F300AD528B /* AnimatedGIFImageSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D86825FA1C3391F300AD528B /* AnimatedGIFImageSerialization.m */; };
 		D87584661C30C5BD00AF3832 /* SmileyTeethFace.gif in Resources */ = {isa = PBXBuildFile; fileRef = D87584651C30C5BD00AF3832 /* SmileyTeethFace.gif */; };
 		D875846D1C30CA7C00AF3832 /* GifAnimation-master (2).zip in Resources */ = {isa = PBXBuildFile; fileRef = D875846C1C30CA7C00AF3832 /* GifAnimation-master (2).zip */; };
-		D87584711C30CAB900AF3832 /* AnimatedGIFImageSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D87584701C30CAB900AF3832 /* AnimatedGIFImageSerialization.m */; };
 		D87584751C30CF4100AF3832 /* OhNoFace.gif in Resources */ = {isa = PBXBuildFile; fileRef = D87584741C30CF4100AF3832 /* OhNoFace.gif */; };
 		D87584771C30D14B00AF3832 /* RollingFaceSmiley.gif in Resources */ = {isa = PBXBuildFile; fileRef = D87584761C30D14B00AF3832 /* RollingFaceSmiley.gif */; };
 		D8AC49421C1E279C002D1AB3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AC49411C1E279C002D1AB3 /* SettingsViewController.swift */; };
@@ -53,11 +53,11 @@
 		D80FB5871C0A960B003C7FFA /* Take my MoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take my MoneyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80FB58B1C0A960B003C7FFA /* Take_my_MoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_my_MoneyUITests.swift; sourceTree = "<group>"; };
 		D80FB58D1C0A960B003C7FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86825F91C3391F300AD528B /* AnimatedGIFImageSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimatedGIFImageSerialization.h; path = ../../AnimatedGIFImageSerialization.h; sourceTree = "<group>"; };
+		D86825FA1C3391F300AD528B /* AnimatedGIFImageSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimatedGIFImageSerialization.m; path = ../../AnimatedGIFImageSerialization.m; sourceTree = "<group>"; };
 		D87584651C30C5BD00AF3832 /* SmileyTeethFace.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = SmileyTeethFace.gif; path = ../../../Desktop/SmileyTeethFace.gif; sourceTree = "<group>"; };
 		D875846C1C30CA7C00AF3832 /* GifAnimation-master (2).zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "GifAnimation-master (2).zip"; path = "../../Desktop/GifAnimation-master (2).zip"; sourceTree = "<group>"; };
 		D875846E1C30CAB800AF3832 /* Take my Money-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Take my Money-Bridging-Header.h"; sourceTree = "<group>"; };
-		D875846F1C30CAB900AF3832 /* AnimatedGIFImageSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimatedGIFImageSerialization.h; path = "../../../Desktop/GifAnimation-master/GifAnimation/Objective-C Files/AnimatedGIFImageSerialization.h"; sourceTree = "<group>"; };
-		D87584701C30CAB900AF3832 /* AnimatedGIFImageSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimatedGIFImageSerialization.m; path = "../../../Desktop/GifAnimation-master/GifAnimation/Objective-C Files/AnimatedGIFImageSerialization.m"; sourceTree = "<group>"; };
 		D87584741C30CF4100AF3832 /* OhNoFace.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = OhNoFace.gif; path = ../../../Desktop/OhNoFace.gif; sourceTree = "<group>"; };
 		D87584761C30D14B00AF3832 /* RollingFaceSmiley.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = RollingFaceSmiley.gif; path = ../../../Desktop/RollingFaceSmiley.gif; sourceTree = "<group>"; };
 		D8AC49411C1E279C002D1AB3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 		D80FB56A1C0A960B003C7FFA /* Take my Money */ = {
 			isa = PBXGroup;
 			children = (
-				D875846F1C30CAB900AF3832 /* AnimatedGIFImageSerialization.h */,
-				D87584701C30CAB900AF3832 /* AnimatedGIFImageSerialization.m */,
+				D86825F91C3391F300AD528B /* AnimatedGIFImageSerialization.h */,
+				D86825FA1C3391F300AD528B /* AnimatedGIFImageSerialization.m */,
 				D87584761C30D14B00AF3832 /* RollingFaceSmiley.gif */,
 				D87584741C30CF4100AF3832 /* OhNoFace.gif */,
 				D87584651C30C5BD00AF3832 /* SmileyTeethFace.gif */,
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D87584711C30CAB900AF3832 /* AnimatedGIFImageSerialization.m in Sources */,
+				D86825FB1C3391F300AD528B /* AnimatedGIFImageSerialization.m in Sources */,
 				D80FB56E1C0A960B003C7FFA /* ViewController.swift in Sources */,
 				D80FB56C1C0A960B003C7FFA /* AppDelegate.swift in Sources */,
 				D8AC49421C1E279C002D1AB3 /* SettingsViewController.swift in Sources */,

@@ -52,6 +52,8 @@ class ViewController: UIViewController {
 //            self.mainInputView.center.x += 250
 //        }
         
+        billField.becomeFirstResponder()
+        
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -59,10 +61,11 @@ class ViewController: UIViewController {
         
         if (defaults.boolForKey("splitBill")) {
             splitBillView.hidden = false
+            billField.endEditing(true)
             
         } else {
             splitBillView.hidden = true
-            
+            billField.becomeFirstResponder()
         }
         
         let image1 : UIImage = UIImage (named: "SmileyTeethFace.gif")!
@@ -82,10 +85,17 @@ class ViewController: UIViewController {
         
         calculateTip()
         
-        billField.becomeFirstResponder()
+        
         
         
     }
+    
+    override func viewWillDisappear (animated: Bool) {
+        super.viewWillAppear(animated)
+        //defaults.setBool(false, forKey: "splitBill")
+        
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
