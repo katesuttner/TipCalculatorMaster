@@ -21,7 +21,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] List anything else that you can get done to improve the app functionality!
+
+I added gifs for animation and dramatic impact. The color of the font and background has been altered. Additionally, I added a feature to split the bill between multiple parties.
 
 ## Video Walkthrough 
 
