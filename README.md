@@ -29,6 +29,8 @@ I added gifs for animation and dramatic impact. The color of the font and backgr
 
 Here's a walkthrough of implemented user stories:
 
+![walkthrough](Tip%20Calculator%20CodePath.gif)
+GIF created with [LiceCap](http://www.cockos.com/licecap/)
 
 GIF created with [https://github.com/katesuttner/TipCalculatorMaster/blob/master/Tip%20Calculator%20CodePath.gif).
 
